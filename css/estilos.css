@@ -1,0 +1,296 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+	height: 100%;
+}
+body{
+	font-family: 'Baloo Tamma', cursive;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+	min-height: 100%;
+	background-color: #efefef;
+}
+div.contenedor div.c-derecha div.seccion h1.titulo-seccion{
+	font-size: 15px;
+	line-height: 22px;
+	font-style: 800;
+	text-transform: uppercase;
+}
+div.contenedor div.c-derecha section.sobre-mi h1.nombre{
+	font-size: 28px;
+	line-height: 25px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+div.contenedor div.c-derecha section.sobre-mi h2.profesion{
+	color: #777;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin-top: 0px;
+}
+p{
+	font-size: 12px;
+	color: #777;
+	line-height: 22px;
+	font-weight: 300;
+}
+div.contenedor div.c-derecha section.sobre-mi ul li div.titulo{
+	color: #333;
+	font-size: 14px;
+	font-style: 700;
+	text-align: center;
+	display: inline-block;
+	width: 35%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: #FFFFFF;
+	border-right: #C7C7C7;
+}
+div.contenedor div.c-derecha section.sobre-mi ul li div.datos{
+	color: #666;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	width: 63%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+div.contenedor div.c-derecha div.seccion{
+	border-bottom: 1px solid #efefef;
+	padding: 40px 10px 2px 40px;
+	position: relative;
+}
+div.contenedor div.c-derecha section.sobre-mi{
+	padding: 30px 40px;
+}
+div.contenedor div.c-derecha section.estudios{
+	padding: 30px 40px;
+}
+div.contenedor div.c-derecha section.experiencia{
+	padding: 30px 40px;
+}
+div.contenedor div.c-derecha section.hobbies{
+	padding: 30px 40px;
+}
+a{
+	text-decoration: none;
+}
+div.contenedor div.c-izquierda nav.menu ul li.item p.texto{
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 45px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #85878b;
+	margin: 0;
+}
+div.contenedor div.c-izquierda nav.menu ul li.item{
+	border-bottom: 1px solid #26292e;
+	padding: 0px;
+    height: 45px;
+}
+ul{
+	list-style: none;
+	padding-left: 0px;
+	margin:0px;
+}
+nav.menu ul li.item a.link:hover .texto{
+	color: white;
+}
+div.contenedor div.c-derecha section.estudios ul.lenguajes{
+	font-size: 12px;
+	color: #777;
+	line-height: 22px;
+	font-weight: 300;
+	text-align: center;
+}
+div.contenedor{
+	max-width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+}
+div.contenedor div.c-derecha{
+	background-color: white;
+	width: 72%;
+	float: right;
+}
+div.contenedor div.c-izquierda{
+	width: 26%;
+	float: left;	
+}
+div.contenedor div.c-derecha section.hobbies .leer{
+	background-image: url("../images/leer.JPG");
+	width: 100%;
+	min-height: 140px;
+	background-position: 0px 0px;
+	background-size: cover;
+}
+div.contenedor div.c-derecha section.hobbies .escribir{
+	background-image: url("../images/escribir.JPG");
+	width: 100%;
+	min-height: 140px;
+	background-position: 0px 0px;
+	background-size: cover;
+}
+div.contenedor div.c-derecha section.hobbies .jugar{
+	background-image: url("../images/videojuegos.JPG");
+	width: 100%;
+	min-height: 140px;
+	background-position: 0px 0px;
+	background-size: cover;
+}
+div.contenedor div.c-derecha section.hobbies div.item-h {
+	width: 31%;
+	margin-right: 1%;
+	margin-left: 1%;
+	float: left;
+}
+
+.w-clearfix:before,.w-clearfix:after {
+	content: " ";
+	display: table;
+}
+ 
+.w-clearfix:after {
+	clear: both;
+}
+div.contenedor div.c-izquierda nav.menu ul li.item a.link{
+	background: #33373d;
+    display: inline-block;
+    width: 100%;
+    line-height: 45px;
+    padding-right: 5px;
+}
+div.contenedor div.c-izquierda nav.menu ul li.item a.link:hover{
+	background-color: #FCDC3C;
+}
+div.contenedor div.c-izquierda nav.menu ul li.item a.link  div.imagenSM{
+	background-image: url("../images/sobre-mi.PNG");
+	width: 25px;
+    height: 25px;
+    float: left;
+    background-position: 0px 0px;
+    background-size: cover;
+    margin: 10px 20px;
+}
+div.contenedor div.c-izquierda nav.menu ul li.item a.link  div.imagenE{
+	background-image: url("../images/educacion.PNG");
+	width: 25px;
+    height: 25px;
+    float: left;
+    background-position: 0px 0px;
+    background-size: cover;
+    margin: 10px 20px;
+}
+div.contenedor div.c-izquierda nav.menu ul li.item a.link  div.imagenEL{
+	background-image: url("../images/experiencia-laboral.PNG");
+	width: 25px;
+    height: 25px;
+    float: left;
+    background-position: 0px 0px;
+    background-size: cover;
+    margin: 10px 20px;
+}
+div.contenedor div.c-izquierda nav.menu ul li.item a.link  div.imagenH{
+	background-image: url("../images/hobbie.PNG");
+	width: 25px;
+    height: 25px;
+    float: left;
+    background-position: 0px 0px;
+    background-size: cover;
+    margin: 10px 20px;
+}
+div.contenedor div.c-izquierda nav.menu ul li.item a.link:hover div.imagenSM{
+	background-image:url("../images/sobre-mi-hover.PNG");
+}
+div.contenedor div.c-izquierda nav.menu ul li.item a.link:hover div.imagenE{
+	background-image:url("../images/educacion-hover.PNG");
+}
+div.contenedor div.c-izquierda nav.menu ul li.item a.link:hover div.imagenEL{
+	background-image:url("../images/experiencia-laboral-hover.PNG");
+}
+div.contenedor div.c-izquierda nav.menu ul li.item a.link:hover div.imagenH{
+	background-image:url("../images/hobbie-hover.PNG");
+}
+div.contenedor div.c-izquierda div.imagen{
+	background-image: url("../images/frank.jpg");
+	width: 100%;
+    height: 295px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+div.contenedor div.c-izquierda div.redes {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 26%;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+}
+div.contenedor div.c-izquierda div.redes a.red {
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+    margin-left: 4px;
+    float: left;
+    display: inline-block;
+}
+div.contenedor div.c-izquierda div.redes a.facebook {
+    background-image: url('../images/redes-facebook.png');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+div.contenedor div.c-izquierda div.redes a.twitter {
+    background-image: url('../images/redes-twitter.png');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+div.contenedor div.c-izquierda div.redes a.linkedin {
+    background-image: url('../images/redes-linkedin.png');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+div.contenedor div.c-izquierda div.redes a.facebook:hover {
+    background-image: url('../images/redes-facebook-hover.png');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+div.contenedor div.c-izquierda div.redes a.twitter:hover {
+    background-image: url('../images/redes-twitter-hover.png');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+div.contenedor div.c-izquierda div.redes a.linkedin:hover {
+    background-image: url('../images/redes-linkedin-hover.png');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+div.contenedor div.c-derecha section.sobre-mi ul.lista{
+	width: 50%;
+	float: left;
+	text-align: center;
+	border: 1px solid #C7C7C7;
+	margin-bottom: 30px;
+}
+div.contenedor div.c-derecha section.sobre-mi ul.lista li{
+	border-bottom: 1px solid #C7C7C7;
+	background-color: #E9E9E9;
+}
+div.contenedor div.c-derecha div.seccion div.linea img{
+	position: absolute;
+	width: 60px;
+	bottom: -7px;
+	background: #FFFFFF;
+	padding-left: 10px;
+	padding-right: 10px;
+	left: 30px;
+}
